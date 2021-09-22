@@ -47,7 +47,7 @@ main {
 }
 
 .left input , .rigth input {
-  width: 40%;
+  width: 48%;
   height: 50px;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -55,6 +55,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  padding: 40px;
 }
 
 #house {
@@ -63,4 +64,15 @@ main {
   border-radius: 5px;
   text-align: center;
   background-color: white;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.families {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }

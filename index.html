@@ -33,6 +33,7 @@
           <input id='input-email' type="text" placeholder="Email">
 
           <label for="house">Casa:</label>
+
           <select id="house" name="house">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
             <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -41,10 +42,27 @@
           </select>
         </div>
 
-        <label id='label-family' for="family">Qual sua família?</label>
-        <input type="radio" name='family' value='Frontend'>
-        <input type="radio" name='family' value='Backend'>
-        <input type="radio" name='family' value='FullStack'>
+        <hr>
+
+        <section class='families'>
+          <label id='label-family' for="family">Qual sua família?</label>
+          <div><input type="radio" name='family' value='Frontend'>Família Frontend</div>
+          <div><input type="radio" name='family' value='Backend'>Família Backend</div>
+          <div><input type="radio" name='family' value='FullStack'>Família FullStack</div>
+        </section>
+
+        <section class='contents'>
+          <label id='label-content' for="language">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div><input type="checkbox" name="language" value="HoFs">HoFs</div>
+          <div><input type="checkbox" name="language" value="Jest">Jest</div>
+          <div><input type="checkbox" name="language" value="Promises">Promises</div>
+          <div><input type="checkbox" name="language" value="React">React</div>
+          <div><input type="checkbox" name="language" value="SQL">SQL</div>
+          <div><input type="checkbox" name="language" value="Python">Python</div> 
+        </section>
+
+        <hr>
+
       </form>
 
       <img id='trybewarts-forms-logo' src="/images/trybewarts-colored.svg" alt="">
