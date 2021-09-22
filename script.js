@@ -2,12 +2,12 @@ function checkLogin() {
   const email = document.querySelector('[name = email]');
   const password = document.querySelector('[name = password]');
 
-  if (email.value === "tryber@teste.com" && password.value === "123456") {
+  if (email.value === 'tryber@teste.com' && password.value === '123456') {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
 }
 
-let button = document.querySelector('.button');
+const button = document.querySelector('.button');
 button.addEventListener('click', checkLogin);
