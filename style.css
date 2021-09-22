@@ -46,7 +46,7 @@ main {
   margin-bottom: 20px;
 }
 
-#evaluation-form input {
+.left input , .rigth input {
   width: 40%;
   height: 50px;
   border-radius: 5px;
