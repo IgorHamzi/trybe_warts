@@ -71,8 +71,12 @@ hr {
 }
 
 .families {
-  display: flex;
+  display:inline-block;
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 20px;
+}
+
+.contents {
+  display: inline-block;
 }
