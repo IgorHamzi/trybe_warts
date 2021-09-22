@@ -26,10 +26,12 @@
   margin-left: 10px;
   height: 30px;
   border-radius: 5px;
+  display: flex;
 }
 
 main {
   display: flex;
+  background-color: aliceblue;
 }
 
 #evaluation-form {
@@ -37,7 +39,6 @@ main {
   width: 675px;
   flex-direction: column;
   padding: 50px;
-
 }
 
 #evaluation-form h1 {
@@ -45,6 +46,21 @@ main {
   margin-bottom: 20px;
 }
 
+#evaluation-form input {
+  width: 40%;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#house {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
 }
