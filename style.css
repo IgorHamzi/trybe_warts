@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  margin-top: 10px;
 }
 
 .header {
@@ -24,10 +23,16 @@
 }
 
 .trybewarts-login input , button {
-  margin-left: 10px;
+  margin-right: 10px;
   height: 30px;
   border-radius: 5px;
   display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: rgba(80, 56, 131, 1);
+  color: white;
 }
 
 main {
@@ -71,13 +76,48 @@ hr {
   margin: 20px 0;
 }
 
-.families {
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-bottom: 20px;
+.rate {
+  margin-bottom: 15px;
 }
 
-.contents {
-  display: inline-block;
+.rate :not( :first-child ) {
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.families :not( :first-child ) {
+  margin: 8px 0;
+}
+
+.up , .down {
+  display: flex;
+}
+
+.language {
+  margin: 15px 15px 0 0;
+}
+
+.infos {
+  margin: 15px 0;
+}
+
+#submit-btn {
+  background-color: rgba(80, 56, 131, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: darkslategrey;
+  color: white;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
