@@ -11,3 +11,11 @@ function checkLogin() {
 
 const button = document.querySelector('.button');
 button.addEventListener('click', checkLogin);
+
+function enviar() {
+  const subit = document.querySelector('#submit-btn');
+  subit.removeAttribute('disabled');
+}
+
+const agremet = document.querySelector('#agreement');
+agremet.addEventListener('click', enviar);
