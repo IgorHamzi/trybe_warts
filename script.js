@@ -13,9 +13,9 @@ const button = document.querySelector('.button');
 button.addEventListener('click', checkLogin);
 
 function enviar() {
-  const subit = document.querySelector('#submit-btn');
-  subit.removeAttribute('disabled');
+  const submit = document.querySelector('#submit-btn');
+  submit.removeAttribute('disabled');
 }
 
-const agremet = document.querySelector('#agreement');
-agremet.addEventListener('click', enviar);
+const agreement = document.querySelector('#agreement');
+agreement.addEventListener('click', enviar);
